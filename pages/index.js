@@ -30,7 +30,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Matt's Portfolio Website</title>
-        <meta name="description" content="Hey, it's Matt, and this is my portfolio website!" />
+        <meta
+          name="description"
+          content="Hey, it's Matt, and this is my portfolio website!"
+        />
         <link rel="icon" href="/icon.ico" />
       </Head>
 
@@ -80,7 +83,10 @@ export default function Home() {
                   Education
                 </li>
               </a>
-              <a href="#resume">
+              <a
+                href="../ANG_MatthewJeremy_Resume.pdf"
+                download="ANG_MatthewJeremy_Resume.pdf"
+              >
                 <li
                   className="bg-[#00FFC6] text-white px-5 py-2 rounded-md shadow-md
               hover:bg-red-500 duration-300 "
@@ -123,9 +129,14 @@ export default function Home() {
                       Education
                     </li>
                   </a>
-                  <a href="#resume">
-                    <li className="bg-[#00FFC6] text-white
-                    hover:bg-red-500 duration-300 py-4 px-6 w-full">
+                  <a
+                    href="../ANG_MatthewJeremy_Resume.pdf"
+                    download="ANG_MatthewJeremy_Resume.pdf"
+                  >
+                    <li
+                      className="bg-[#00FFC6] text-white
+                    hover:bg-red-500 duration-300 py-4 px-6 w-full"
+                    >
                       Resume
                     </li>
                   </a>
@@ -373,6 +384,11 @@ export default function Home() {
                     Random Forest Algorithm
                   </p>
                 </a>
+                <a href="https://github.com/enouuu/CompilerDesignBrew">
+                  <p className="py-2 font-medium hover:text-blue-600 cursor-pointer duration-300">
+                    Brew - A Compiler Design Project
+                  </p>
+                </a>
                 <a
                   href="https://github.com/Axiion/axie_all_in_one.git"
                   target="_blank"
@@ -395,12 +411,6 @@ export default function Home() {
                 >
                   <p className="py-2 font-medium hover:text-blue-600 cursor-pointer duration-300">
                     Energy counter app for the game Axie Infinity
-                  </p>
-                </a>
-                <a href="#">
-                  <p className="py-2 font-medium hover:text-blue-600 cursor-pointer duration-300">
-                    Adventure command line game program with save file feature
-                    using Java
                   </p>
                 </a>
               </div>
@@ -464,9 +474,7 @@ export default function Home() {
         </section>
         <section id="education" className="bg-[#00FFC6] p-10">
           <div className="text-center">
-            <h3 className="text-3xl font-medium py-10">
-              Education
-            </h3>
+            <h3 className="text-3xl font-medium py-10">Education</h3>
           </div>
           <div className="bg-white p-5 rounded-md shadow-lg md:p-20">
             <ol className="relative border-l border-gray-800">
@@ -485,6 +493,8 @@ export default function Home() {
                   2nd Year S.Y. 2020-2021 - Dean's Lister
                   <br />
                   3rd Year S.Y. 2021-2022 - Dean's Lister
+                  <br />
+                  4th Year S.Y. 2022-2023 1st Semester - Dean's Lister
                   <br />
                   Executive Assistant to Chief of Staff
                 </p>
