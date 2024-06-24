@@ -232,7 +232,7 @@ export default function Home() {
                   className="text-md font-medium leading-8 
               md:text-3xl px-12 leading-8 py-2"
                 >
-                  4th year Computer Science student.
+                  A Computer Science graduate, Software Developer.
                 </h2>
               </motion.div>
               <motion.div
@@ -256,7 +256,7 @@ export default function Home() {
                   className="text-md leading-8 mt-2
               md:text-xl px-12 py-5 leading-8"
                 >
-                  An aspiring software engineer and full-stack developer.
+                  An aspiring full-stack developer.
                 </p>
               </motion.div>
             </div>
@@ -300,16 +300,18 @@ export default function Home() {
             md:text-md max-w-4xl mx-auto px-10 
             lg:text-xl max-w-6xl mx-auto px-10"
             >
-              Hello! Welcome to my portfolio website! I am Matthew Jeremy T.
-              Ang, but you can call me Matt. I'm currently a 4th year Computer
-              Science student specializing in Core Computer Science course in
-              the University of Santo Tomas. I have loved everything about
-              computers ever since-- from building them to programming them. At
-              first, I planned on taking up the Game Development specialization,
-              but after considering it, I decided to take the Core CS
-              specialization due to the many job opportunities I can go for
-              after graduating. I was and still am fascinated by how computers
-              work due to the rapid advent of technology.
+              Hello, welcome to my portfolio website! I am Matthew Jeremy T.
+              Ang, but you can call me Matt. I graduated as Cum Laude with a
+              Bachelor of Science degree of Computer Science, specializing in
+              Core Computer Science from the University of Santo Tomas.
+              Computers have fascinated me ever since I was a child, from simply
+              using it, to building it, and now, programming using a computer.
+              At first, I planned on taking up the Game Development
+              specialization, but after considering it, I decided to take the
+              Core CS specialization to maximize the potential I have and
+              further my career as a Software Developer. I was and still am
+              fascinated by how computers work due to the rapid advent of
+              technology.
             </p>
             <p
               className="text-center text-md py-10 leading-8 font-regular text-gray-800 
@@ -474,14 +476,83 @@ export default function Home() {
         </section>
         <section id="education" className="bg-[#00FFC6] p-10">
           <div className="text-center">
-            <h3 className="text-3xl font-medium py-10">Education</h3>
+            <h3 className="text-3xl font-medium py-10">
+              Work experiences and Education
+            </h3>
           </div>
           <div className="bg-white p-5 rounded-md shadow-lg md:p-20">
             <ol className="relative border-l border-gray-800">
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#00FFC6]"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-600">
-                  2019 - Present
+                  July 2023 - Present
+                </time>
+                <h3 className="text-lg font-semibold text-gray-800">
+                  IDEMIA Philippines Inc.
+                </h3>
+                <p className="text-md font-semibold text-gray-800">
+                  Back Office Industrialization Engineer
+                </p>
+                <p className="mb-4 text-base font-normal text-gray-700">
+                  Software development on various kinds of card chips for
+                  international use, mainly clients from North America.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#00FFC6]"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-600">
+                  February 2023 - Present
+                </time>
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Ultra Gravel Challenge
+                </h3>
+                <p className="text-md font-semibold text-gray-800">
+                  Event Organizer
+                </p>
+                <p className="mb-4 text-base font-normal text-gray-700">
+                  Organizer for the Ultra Gravel Challenge event. Mainly
+                  delegating tasks and monitoring performance of employees. In
+                  charge of finances and communicating with clients.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#00FFC6]"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-600">
+                  July 2022 - Present
+                </time>
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Philippine Bicycle Demo & Expo
+                </h3>
+                <p className="text-md font-semibold text-gray-800">
+                  Event Organizer
+                </p>
+                <p className="mb-4 text-base font-normal text-gray-700">
+                  Organizer for the Philippine Bicycle Demo & Expo event. Mainly
+                  delegating tasks and monitoring performance of employees. In
+                  charge of finances and communicating with clients.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#00FFC6]"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-600">
+                  March 2023 - June 2023
+                </time>
+                <h3 className="text-lg font-semibold text-gray-800">
+                  PhilFlex Cables and Wires Co.
+                </h3>
+                <p className="text-md font-semibold text-gray-800">
+                  OJT Software Developer
+                </p>
+                <p className="mb-4 text-base font-normal text-gray-700">
+                  Applied at PhilFlex Cables and Wires Co. for my OJT subject
+                  during my 4th year in college. Mainly assisting their software
+                  developers with their projects.
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 bg-[#00FFC6]"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-600">
+                  2019 - 2023, Graduated as Cum Laude
                 </time>
                 <h3 className="text-lg font-semibold text-gray-800">
                   University of Santo Tomas - College of Information and
@@ -494,9 +565,10 @@ export default function Home() {
                   <br />
                   3rd Year S.Y. 2021-2022 - Dean's Lister
                   <br />
-                  4th Year S.Y. 2022-2023 1st Semester - Dean's Lister
+                  4th Year S.Y. 2022-2023 - Dean's Lister
                   <br />
-                  Executive Assistant to Chief of Staff
+                  Executive Assistant to Chief of Staff, Computer Science
+                  Society
                 </p>
               </li>
               <li className="mb-10 ml-4">
